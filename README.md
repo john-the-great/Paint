@@ -4,6 +4,7 @@ The simple logic thats used to simply just draw, is a regular pygame.rect.draw f
 draw on and i put this into a formatted string, i then use that as the key for my canvas tiles dictionary, and go to that tile, and change the colour. 
 
 For example:
+
 key = f'{x} {y}'
 
 self.tiles[key] = self.curr_colour
