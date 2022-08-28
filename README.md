@@ -5,6 +5,7 @@ draw on and i put this into a formatted string, i then use that as the key for m
 
 For example:
 key = f'{x} {y}'
+
 self.tiles[key] = self.curr_colour
 
 this also changes the saved colour of the tile i just clicked on. The point of this is not to change the colour of the tile i clicked on, because i do that just by
